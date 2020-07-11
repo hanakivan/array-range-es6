@@ -1,6 +1,6 @@
 {
   "name": "@ivanhanak_com/array-range",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Absolutely lightweight (0.01kb) library to create an array range.",
   "main": "./dist/index.js",
   "scripts": {
