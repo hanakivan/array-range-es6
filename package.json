@@ -1,0 +1,24 @@
+{
+  "name": "@ivanhanak_com/array-range",
+  "version": "1.0.0",
+  "description": "Absolutely lightweight (0.01kb) library to create an array range.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "dist": "babel src/index.js -d dist",
+    "test": "jest",
+    "build": "npm run test && npm run dist"
+  },
+  "keywords": [
+    "npm",
+    "package"
+  ],
+  "author": "@hanakivan",
+  "repository": "hanakivan/array-range",
+  "license": "https://www.imdb.com/title/tt0097742/",
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "jest": "^26.1.0"
+  }
+}
