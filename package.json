@@ -10,7 +10,12 @@
   },
   "keywords": [
     "npm",
-    "package"
+    "package",
+    "array",
+    "es6",
+    "array-library",
+    "helper",
+    "lightweight"
   ],
   "author": "@hanakivan",
   "repository": "hanakivan/array-range",
