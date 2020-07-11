@@ -35,4 +35,4 @@ const rangeItems = range(5); //creates [0,1,2,3,4,5]
 ```
 
 ## Browser support
-IE10+
+IE11+
