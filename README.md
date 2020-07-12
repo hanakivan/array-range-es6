@@ -35,7 +35,7 @@ import range from '@ivanhanak_com/array-range-es6';
 ## Usage
 
 ```javascript
-const rangeItems = range(5); //creates [0,1,2,3,4,5]
+const rangeItems = range(5); //creates [0,1,2,3,4]
 ```
 
 ## Browser support
