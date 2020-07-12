@@ -1,6 +1,6 @@
 {
   "name": "@ivanhanak_com/array-range-es6",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ES6 version of lightweight (0.01kb) library to create an array range.",
   "main": "./dist/index.js",
   "scripts": {
