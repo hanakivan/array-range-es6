@@ -1,9 +1,13 @@
-# array-range
+# array-range-es6
 
-[![](https://flat.badgen.net/npm/v/@ivanhanak_com/array-range?icon=npm)](https://www.npmjs.com/package/@ivanhanak_com/array-range)
-[![NPM Weekly Downloads](https://badgen.net/npm/dw/@ivanhanak_com/array-range)](https://www.npmjs.com/package/@ivanhanak_com/array-range)
+[![](https://flat.badgen.net/npm/v/@ivanhanak_com/array-range-es6?icon=npm)](https://www.npmjs.com/package/@ivanhanak_com/array-range-es6)
+[![NPM Weekly Downloads](https://badgen.net/npm/dw/@ivanhanak_com/array-range-es6)](https://www.npmjs.com/package/@ivanhanak_com/array-range-es6)
 
-Absolutely lightweight (0.01kb) library to create an array range. 
+Absolutely lightweight (0.01kb) library to create an array range.
+
+It's basically this line of code: `export default (length) => ([...Array(length).keys()] );` but is like a library so you don't have to define it million times in your project.
+
+You can find array-range for older browsers (e.g. IE11) [here](https://www.npmjs.com/package/@ivanhanak_com/array-range). 
 
 ## Changelog
 
@@ -14,18 +18,18 @@ See the whole [Changelog](/CHANGELOG.md).
 Using npm:
 
 ```sh
-npm install @ivanhanak_com/array-range
+npm install @ivanhanak_com/array-range-es6
 ```
 
 Using yarn:
 
 ```sh
-yarn add @ivanhanak_com/array-range
+yarn add @ivanhanak_com/array-range-es6
 ```
 
 ## Import
 ```javascript
-import range from '@ivanhanak_com/array-range';
+import range from '@ivanhanak_com/array-range-es6';
 ```
 
 ## Usage
@@ -35,4 +39,4 @@ const rangeItems = range(5); //creates [0,1,2,3,4,5]
 ```
 
 ## Browser support
-IE11+
+EDGE 13+, Safari 12+, (✅ and also Chrome & Firefox)

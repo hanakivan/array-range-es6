@@ -1,7 +1,7 @@
 {
-  "name": "@ivanhanak_com/array-range",
+  "name": "@ivanhanak_com/array-range-es6",
   "version": "1.0.1",
-  "description": "Absolutely lightweight (0.01kb) library to create an array range.",
+  "description": "ES6 version of lightweight (0.01kb) library to create an array range.",
   "main": "./dist/index.js",
   "scripts": {
     "dist": "babel src/index.js -d dist",
@@ -18,7 +18,7 @@
     "lightweight"
   ],
   "author": "@hanakivan",
-  "repository": "hanakivan/array-range",
+  "repository": "hanakivan/array-range-es6",
   "license": "https://www.imdb.com/title/tt0097742/",
   "devDependencies": {
     "@babel/cli": "^7.10.4",
